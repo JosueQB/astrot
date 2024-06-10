@@ -1,0 +1,61 @@
+
+.container {
+    margin: 0 auto;
+    height: 91vh;
+    background-image: url('../img/galaxia.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: black;
+    
+}
+
+.formgroup {
+    padding: 50px;
+    width: 35%;
+    max-width: 60%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(71, 95, 230);
+}
+
+.h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input,
+.textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #41047a;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #4d09a7;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+.button:hover {
+    background-color: #1b0238;
+}
