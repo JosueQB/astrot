@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import styles from '../../static/css/inicio.module.css'
+import styles from '../../static/css/inicio.module.css';
 export const metadata = {
-  title: "Inicio",
+  title: 'Inicio',
 };
 export default function Home() {
   return (

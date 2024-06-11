@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import Navbar from "../../../components/navbar";
+import Navbar from '../../../components/navbar';
 import s from '../../../static/css/mision.module.css';
 export const metadata = {
-  title: "Mision Espacial",
+  title: 'Mision Espacial',
 };
 export default function Ver() {
   return (
@@ -18,7 +18,7 @@ export default function Ver() {
           <br/><br/> No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
         </div>
         <div className={s.Contentitem2}>
-          <Image src="/static/img/mision.png" height={300}
+          <Image src='/static/img/mision.png' height={300}
           width={300} alt='mision'/>
         </div>
       </div>

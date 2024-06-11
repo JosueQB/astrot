@@ -5,31 +5,31 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <a href="/">
-                    <Image src="/static/img/Logo_rocket.png" alt='logo' width={50} height={50} />
+                <a href='/' >
+                    <Image src='/static/img/Logo_rocket.png' alt='logo' width={50} height={50} />
                 </a>
             </div>
             <ul className={styles.navLinks}>
                 <li className={styles.li}>
-                    <a className={styles.a} href="/">Inicio</a>
+                    <a className={styles.a} href='/'>Inicio</a>
                 </li>
                 <li className={styles.li}>
-                    <a className={styles.a} href="/Ver">Ver Astronomia</a>
+                    <a className={styles.a} href='/Ver'>Ver Astronomia</a>
                 </li>
                 <li className={styles.li}>
-                    <a className={styles.a} href="/reciente">Descubrimiento Reciente</a>
+                    <a className={styles.a} href='/reciente'>Descubrimiento Reciente</a>
                 </li>
                 <li className={styles.li}>
-                    <a className={styles.a} href="/Planetario">Planetas y estrellas</a>
+                    <a className={styles.a} href='/Planetario'>Planetas y estrellas</a>
                 </li>
                 <li className={styles.li}>
-                    <a  className={styles.a}href="/mision">Mision espacial</a>
+                    <a className={styles.a} href='/mision'>Mision espacial</a>
                 </li>
                 <li className={styles.li}>
-                    <a  className={styles.a}href="/contact">contacto</a>
+                    <a className={styles.a} href='/contact'>contacto</a>
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 };
 
