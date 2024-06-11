@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import styles from '../static/css/navbar.module.css';
 
 const Navbar = () => {
@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.logo}>
                 <a href="/">
-                    <img src="../static/img/Logo_rocket.png" alt='logo' width={50} height={50} />
+                    <Image src="/static/img/Logo_rocket.png" alt='logo' width={50} height={50} />
                 </a>
             </div>
             <ul className={styles.navLinks}>

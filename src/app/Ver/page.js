@@ -1,5 +1,6 @@
-import Navbar from "../../../components/navbar";
-import styles from "../../../static/css/carrousel.module.css"
+import Image from 'next/image';
+import Navbar from '../../../components/navbar';
+import styles from '../../../static/css/carrousel.module.css';
 export const metadata = {
   title: "Ver astronomia",
 };
@@ -23,10 +24,10 @@ export default function Ver() {
       </div>
       
       <div className={styles.carrousel}>
-        <div key="1" className={styles.carouselItem}>
-          <img
-            src="../../../static/img/earth_galaxy.png"
-            alt="earth"
+        <div key='1' className={styles.carouselItem}>
+          <Image
+            src='/static/img/earth_galaxy.png'
+            alt='earth_galaxy'
             className={styles.image}
             width={200}
             height={200}
@@ -36,10 +37,10 @@ export default function Ver() {
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
           </div>
         </div>
-        <div key="2" className={styles.carouselItem}>
-          <img
-            src="../../../static/img/jupiter_galaxy_planet.png"
-            alt="earth"
+        <div key='2' className={styles.carouselItem}>
+          <Image
+            src='/static/img/jupiter_galaxy_planet.png'
+            alt='jupiter_galaxy_planet'
             className={styles.image}
             width={200}
             height={200}
@@ -49,10 +50,10 @@ export default function Ver() {
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
           </div>
         </div>
-        <div key="3" className={styles.carouselItem}>
-          <img
-            src="../../../static/img/Saturn_galaxy_planet.png"
-            alt="earth"
+        <div key='3' className={styles.carouselItem}>
+          <Image
+            src='/static/img/Saturn_galaxy_planet.png'
+            alt='Saturn_galaxy_planet'
             className={styles.image}
             width={200}
             height={200}
@@ -62,10 +63,10 @@ export default function Ver() {
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
           </div>
         </div>
-        <div key="4" className={styles.carouselItem}>
-          <img
-            src="../../../static/img/venus_galaxy_planet.png"
-            alt="earth"
+        <div key='4' className={styles.carouselItem}>
+          <Image
+            src='/static/img/venus_galaxy_planet.png'
+            alt='venus_galaxy_planet'
             className={styles.image}
             width={200}
             height={200}
@@ -75,10 +76,10 @@ export default function Ver() {
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
           </div>
         </div>
-        <div key="5" className={styles.carouselItem}>
-          <img
-            src="../../../static/img/moon_galaxy_planet.png"
-            alt="earth"
+        <div key='5' className={styles.carouselItem}>
+          <Image
+            src='/static/img/moon_galaxy_planet.png'
+            alt='moon_galaxy_planet'
             className={styles.image}
             width={200}
             height={200}

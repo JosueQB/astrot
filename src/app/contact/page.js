@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from "../../../components/navbar";
 import styles from '../../../static/css/contacto.module.css'
 export const metadata = {
@@ -13,7 +14,7 @@ export default function Ver() {
       <div className={styles.container}>
         <div className={styles.formgroup} >
           <a href="/mision">
-          <img src="../../../static/img/mision.png" height={300} width={300} />
+          <Image src="/static/img/mision.png" height={300} width={300} alt='mision' />
             </a>
           <h1 className={styles.h1}>Contacto</h1>
           <form className={styles.form}>
